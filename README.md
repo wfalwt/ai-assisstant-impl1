@@ -1,18 +1,9 @@
-# MindForce-AI-Assistant
-
-MindForce AI 助手
-基于Qwen2-7B-Instruct 模型与MindForce平台集成构建的智能助手，可以方便:
-- 创建建模对象
-- 创建页面
-- 创建函数
-- 动态呈现报表视图
-- 提供MindForce平台的知识问答
 
 
 ### 大模型
 采用[Qwen2-7B-Instruct](https://www.modelscope.cn/models/qwen/Qwen2-7B-Instruct/summary)大模型，使用vllm启用openai的api服务，启动命令如下
 ```shell
-python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-7B-Instruct --api-key mindforce.ai  --model /llm/models/Qwen2-7B-Instruct --dtype=float16
+python -m vllm.entrypoints.openai.api_server --served-model-name Qwen2-7B-Instruct --api-key api_key  --model /llm/models/Qwen2-7B-Instruct --dtype=float16
 ```
 推理机显卡(Tesla V100-SXM3-32GB * 2) 配置
 ```
