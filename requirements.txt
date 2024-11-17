@@ -1,0 +1,16 @@
+qwen-agent
+qwen-agent[rag]
+starlette_session
+redis~=5.0.8
+requests~=2.32.3
+urllib3==1.23
+pyopenssl
+fastapi~=0.112.0
+json5~=0.9.25
+PyMySQL~=1.1.1
+redis~=5.0.8
+starlette~=0.37.2
+uvicorn~=0.30.5
+python-dotenv~=1.0.1
+pydantic~=2.8.2
+sqlparse~=0.5.1
